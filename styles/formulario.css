@@ -31,6 +31,7 @@ nav{
     background-color: #1E2022;
     border: 2px solid #ffffff;
     border-top: 0px;
+    align-items: center;
 }   
 #botones{
     width: 8vw;
@@ -39,6 +40,12 @@ nav{
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
     border: 1px solid #ffffff;
+}
+#botones:hover{
+    cursor:pointer;
+    width: 9vw;
+    height: 6vh;
+    background-color: #3e3e3f;
 }
 a{
     margin: 2vh;
